@@ -11,3 +11,8 @@ git clone --depth 1 https://github.com/wbthomason/packer.nvim\
 scoop install starship
 brew install starship
 ```
+
+安装 `autojmp`
+```bash
+pipx install autojmp
+```
