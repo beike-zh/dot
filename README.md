@@ -14,5 +14,7 @@ brew install starship
 
 安装 `autojmp`
 ```bash
+xx/python3 -m pip install autojmp
+
 pipx install autojmp
 ```
