@@ -1,7 +1,6 @@
 # alias
 alias mk=mkdir
 alias cls=clear
-alias vim=nvim
 alias ls='ls --color=auto'
 alias la='ls -a --color=auto'
 alias sup='sudo apt update'

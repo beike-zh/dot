@@ -6,6 +6,9 @@ command_timeout = 1000
 truncation_length = 0
 truncate_to_repo = false
 # fish_style_pwd_dir_length = 1
+#style = "bold cyan"
+style = "#8178a7"
+# format = "[$path]($style)[$read_only]($read_only_style)"
 
 [git_branch]
 format = "[$branch]($style) "
@@ -16,7 +19,8 @@ min_time = 3_000
 
 [character]
 # success_symbol = "[➜](bold green)"
-success_symbol = "[-->](bold green)"
+# success_symbol = "[-->](bold green)"
+success_symbol = "[λ](bold black)"
 error_symbol = "[✘](bold red)"
 vicmd_symbol = "[V](bold blue) "
 
