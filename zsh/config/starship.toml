@@ -19,7 +19,6 @@ min_time = 3_000
 
 [character]
 # success_symbol = "[➜](bold green)"
-# success_symbol = "[-->](bold green)"
 success_symbol = "[λ](bold black)"
 error_symbol = "[✘](bold red)"
 vicmd_symbol = "[V](bold blue) "
