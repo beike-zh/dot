@@ -5,7 +5,7 @@ alias cls=clear
 alias ls='exa'
 alias la='exa -a'
 alias ll='exa -l'
-#alias la='ls -a --color=auto'
+alias la='ls -a --color=auto'
 alias sup='sudo apt update'
 alias sug='sudo apt upgrade'
 alias ssa='apt search'

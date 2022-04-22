@@ -3,14 +3,12 @@
 ss=~/dot/zsh/config
 
 source $ss/basic.zsh
-# miniplug
-# source $ss/plugins.zsh
 # zinit
 source $ss/zinit.zsh
 # starship
-source $ss/starship.zsh
+# source $ss/starship.zsh
 # alias
-source $ss/alias.zsh
+source $ss/ali.zsh
 # path
 source $ss/path.zsh
 # autojmp
