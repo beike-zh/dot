@@ -2,9 +2,9 @@
 alias mk=mkdir
 alias cls=clear
 #alias ls='ls --color=auto'
-alias ls='exa'
-alias la='exa -a'
-alias ll='exa -l'
+#alias ls='exa'
+#alias la='exa -a'
+#alias ll='exa -l'
 alias la='ls -a --color=auto'
 alias sup='sudo apt update'
 alias sug='sudo apt upgrade'
