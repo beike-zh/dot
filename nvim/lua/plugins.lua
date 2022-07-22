@@ -34,60 +34,14 @@ return require('packer').startup(function()
                     ["<s-tab>"] = cmp.mapping.select_prev_item(),
                     ["<tab>"] = cmp.mapping.select_next_item()
                 },
-                sources = {{
-                    name = 'buffer'
+                sources = ({
+                    {name = 'buffer'},
                 }, {
-                    name = "path"
-                }}
+                    {name = 'path'},
+                })
             })
         end
     })
-
-    -- Treesitter
-    -- use({
-    --     "nvim-treesitter/nvim-treesitter",
-    --     requires = {"nvim-treesitter/nvim-treesitter-textobjects", "JoosepAlviste/nvim-ts-context-commentstring",
-    --                 "p00f/nvim-ts-rainbow", "nvim-treesitter/playground"},
-    --     run = ":TSUpdate",
-    --     config = function()
-    --         require('nvim-treesitter.configs').setup({
-    --             -- One of "all", "maintained" (parsers with maintainers), or a list of languages
-    --             ensure_installed = "maintained",
-
-    --             -- Install languages synchronously (only applied to `ensure_installed`)
-    --             sync_install = false,
-
-    --             -- List of parsers to ignore installing
-    --             -- ignore_install = {"javascript"},
-
-    --             highlight = {
-    --                 -- `false` will disable the whole extension
-    --                 enable = true,
-
-    --                 -- list of language that will be disabled
-    --                 -- disable = {"c", "rust"},
-
-    --                 -- Setting this to true will run `:h syntax` and tree-sitter at the same time.
-    --                 -- Set this to `true` if you depend on 'syntax' being enabled (like for indentation).
-    --                 -- Using this option may slow down your editor, and you may see some duplicate highlights.
-    --                 -- Instead of true it can also be a list of languages
-    --                 additional_vim_regex_highlighting = false
-    --             }
-    --         })
-    --     end
-    -- })
-
-    -- -- telescope 
-    -- use {
-    --     'nvim-telescope/telescope.nvim',
-    --     requires = {"nvim-lua/plenary.nvim", "nvim-telescope/telescope-project.nvim", {
-    --         "nvim-telescope/telescope-fzf-native.nvim",
-    --         run = "make"
-    --     }},
-    --     config = function()
-    --         require('telescope').setup()
-    --     end
-    -- }
 
     use({
         "windwp/nvim-autopairs",
@@ -95,18 +49,6 @@ return require('packer').startup(function()
             require("nvim-autopairs").setup()
         end
     })
-
-    -- nvim-tree
-    use {
-        'kyazdani42/nvim-tree.lua',
-        requires = {'kyazdani42/nvim-web-devicons' -- optional, for file icon
-        },
-        config = function()
-            require'nvim-tree'.setup {
-                auto_close = true
-            }
-        end
-    }
 
     use {
         'nvim-lualine/lualine.nvim',
