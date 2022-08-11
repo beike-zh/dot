@@ -7,6 +7,7 @@ export PATH="$HOME/Library/Application Support/Coursier/bin:$PATH"
 export PATH="$HOME/homebrew/Cellar/mill/0.10.4/bin:$PATH"
 export PATH="$HOME/homebrew/Cellar/mysql/8.0.29_1/bin:$PATH"
 export PATH="$HOME/homebrew/Cellar/postgresql/14.4/bin:$PATH"
+export PATH="$HOME/homebrew/Cellar/mongodb-community/6.0.0/bin:$PATH"
 
 # Agda
 # export Agda_datadir="$HOME/app/Agda-nightly/data"

@@ -31,5 +31,8 @@ setopt interactivecomments
 # disable beep
 unsetopt BEEP
 
+
+# zoxide
+eval "$(zoxide init zsh)"
 # export TERM=xterm-256color
 # }}}

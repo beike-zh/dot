@@ -11,7 +11,7 @@ zinit ice depth=1
 zinit light romkatv/powerlevel10k
 
 
-zinit light skywind3000/z.lua
+# zinit light skywind3000/z.lua
 
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#808080"
 
